@@ -1,0 +1,34 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 300px) 1fr;
+  padding: 0px 20px;
+}
+.content {
+  grid-column: 2/5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.content h3 {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.content h4 {
+  width: 100%;
+}
+.client-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  flex: 1 1 23%;
+}
+.italics {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .client-card {
+    flex: 1 1 100%;
+  }
+}

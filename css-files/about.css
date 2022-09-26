@@ -1,0 +1,43 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 300px) 1fr;
+  justify-items: center;
+  padding: 0 30px;
+}
+.text-content {
+  grid-column: 2/4;
+  margin-right: 40px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  margin-top: 10px;
+}
+.image {
+  border: 10px solid #1d5377;
+  background-color: #1d5377;
+  box-shadow: 1px 2px 5px black;
+}
+.image img {
+  border-radius: 10px;
+}
+section h3 {
+  border-bottom: 1px solid black;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+section h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
