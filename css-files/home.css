@@ -170,10 +170,12 @@ main article {
 main article h2 {
   font-size: 40px;
   line-height: 40px;
+  margin-bottom: 80px;
 }
 main article p {
   text-align: justify;
   font-size: 12px;
+  margin-bottom: 40px;
 }
 main article button {
   align-self: flex-start;
